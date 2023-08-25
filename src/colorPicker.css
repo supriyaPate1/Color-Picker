@@ -1,0 +1,60 @@
+.mainPick{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(230, 247, 241);
+    border: 1px solid black;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+#chooseColor{
+            border-radius: 50%;
+            height: 90px;
+            width: 90px;
+            border: none;
+            outline: none;
+            -webkit-appearance: none;
+        }
+        
+        #chooseColor::-webkit-color-swatch-wrapper {
+            padding: 0; 
+        }
+        #chooseColor::-webkit-color-swatch {
+            border: none;
+            border-radius: 50%;
+        }
+
+
+#copybtn{
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 15%;
+  
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+#getbtn{
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+.sel{
+    margin-top: 10px;
+}
+.sel input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
